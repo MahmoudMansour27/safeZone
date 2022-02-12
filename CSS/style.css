@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family:'Courier New', Courier, monospace;
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header {
+    background-color: #DCF4CE;
+    width: 100%;
+    height: 5rem;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 12.5rem;
+}
+header a {
+    text-decoration: none;
+}
+.navtaps a{
+    color: #347571;
+    text-decoration: none;
+    font-weight: bold;
+    padding-left: 3.125rem;
+    font-size: 1.25rem;
+    transition: 0.5s ease;
+}
+header a {
+    margin: 0rem;
+}
+header img {
+    width: 3rem;
+    height: 3rem;
+}
+.navtaps a:hover{
+    color: #ffff;
+}
+header .sign a {
+    text-decoration: none;
+    color: #f0f0f0;
+    background-color: #347571;
+    font-size: 1.25rem;
+    font-weight: bold;
+    display: inline-block;
+    padding: 0.2rem 2rem;
+    margin-left: 3.125rem;
+    border-radius: 3.125rem;
+    transition: 0.7s ease;
+}
+header .sign a:hover {
+    color: #f0f0f0;
+    transform: scale(1.1);
+}
+section{
+    padding: 12.5rem 12.5rem;
+}
+.main {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    background-image: url(../img/bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+}
+.main .text {
+    width: 68rem;
+    padding-right: 21rem;
+}
+.main .text h3 {
+    font-size: 3rem;
+    margin-right: 2rem;
+}
+.main .text h1 {
+    font-size: 6rem;
+    margin-right: 2rem;
+}
+.main .icons {
+    font-size: 3rem;
+}
+.main .icons a {
+    margin: 1rem 1rem;
+}
+.main .form-box {
+    padding: 3rem;
+    background-color: #ffff;
+    border-radius: 2rem;
+    margin-bottom: 8rem;
+}
+.main .form-box label {
+    font-size: 2rem;
+    margin: 1rem;
+}
+.main .form-box .message {
+    width: 100%;
+    height: 2rem;
+    margin: 1rem;
+}
+.bott{
+    text-decoration: none;
+    color: #f0f0f0;
+    background-color: #347571;
+    font-size: 3.125rem;
+    font-weight: bold;
+    display: inline-block;
+    padding: 0.125rem 5rem;
+    margin-top: 1.875rem;
+    border-radius: 3.125rem;
+    transition: 0.7s ease;
+    width: 100%;
+    text-align: center;
+}
+.bott:hover{
+    background-color: darkcyan;
+    transform: scale(1.1);
+}
+.services {
+    text-align: center;
+    margin-top: 3rem;
+    padding: 0rem;
+}
+.services h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #347571;
+}
+.services .cards {
+    width: 100%;
+    padding: 0rem 9rem;
+    margin: 4rem 0rem;
+    display: flex;
+    justify-content: space-between;
+}
+.services .card {
+    background-color: #347571;
+    border-radius: 20rem;
+    width: 13rem;
+    height: 13rem;
+    padding: 3rem;
+    transition: 0.7s ease;
+}
+.services .card:hover {
+    background-color: #b9d3aa;
+}
+.services .cards a {
+    text-decoration: none;
+}
+.services .cards .card  img {
+    height: 5rem;
+    width: 5rem;
+}
+.services .cards .card h3 {
+    color: #f0f0f0;
+    margin: 0.2rem 0rem;
+}
+.about {
+    padding: 0rem;  
+    margin-top: 5rem;
+}
+.about h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #347571;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.about .container{
+    display: flex;
+    justify-content: space-between;
+}
+.about .container .text-about {
+    width: 50%;
+    padding: 0rem 5rem;
+}
+.about .container .text-about h3 {
+    font-size: 3rem;
+}
+.about .container .text-about p {
+    font-size: 2.7rem;
+}
+.about .container .img {
+    background-color: #347571;
+    width: 50%;
+}
+.about .container .img img {
+    width: 57rem;
+    height: 50rem;
+}
+.about table tr img{
+    width: 50%;
+}
+.about table tr img {
+    border-radius: 50rem;
+}
+.count{
+    padding: 3.125rem 12.5rem;
+    background: url(../img/medical-g9812fa59d_1920.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-bottom: 3.125rem;
+    margin-top: 3.125rem;
+}
+.back{
+    margin: 0rem;
+    padding: 0rem;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 4.375rem;
+}
+table{
+    display: inline-block;
+    padding: 0.16rem 0.25rem;
+    align-items: center;
+    width: 100%;
+}
+table .icons{
+    color: #347571;
+    font-size: 9.375rem;
+}
+table .icons th{
+    padding: 0rem 6.25rem;
+}
+table .num{
+    font-size: 1.875rem;
+    font-weight: bold;
+}
+table .text{
+    font-size: 1.875rem;
+    font-weight: bold;
+    padding-bottom: 3.125rem;
+}
+table .icons i {
+    transition: 0.5s ease;
+}
+table .icons i:hover {
+    color: #b9d3aa;
+}
+.footer-table {
+    margin-right: 41.875rem;
+}
+.footer{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    background-image: url(../img/footer.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    color:#347571;
+    display: flex;
+    justify-content: space-between;
+    padding: 3.125rem;
+}
+.footer .footer-table {
+    margin-top: 1rem;
+}
+.footer .list{
+    font-size: 1.25rem;
+    padding: 0rem 3.125rem;
+    font-weight: 500;
+    list-style-type: none;
+}
+.footer .list span{
+    font-size: 1.375rem;
+    font-weight: bold;
+}
+.footer .soical-icons {
+    font-size: 1.875rem;
+    padding: 2.125rem;
+    width: 100%;
+    text-align: center;
+    
+}
+.footer .soical-icons a {
+    padding: 0.25rem;
+}
+.footer .soical-icons .text {
+    text-align: center;
+}
+.send {
+    padding: 6.25rem 2.5rem;
+    display: flex;
+    justify-content: space-between;
+    margin: 0rem 12.5rem;
+}
+.send h3 {
+    padding-bottom: 3.125rem;
+    font-size: 3.125rem;
+    color: black;
+}
+.send form {
+    font-size: 1.5625rem;
+    font-weight: 400;
+    color: black;
+}
+.send form input {
+    padding-right: 31.25rem;
+    border-color: hsl(240, 100%, 90%);
+}
+.send form .message{
+    padding-bottom: 12.5rem;
+}
+.send form .name{
+    padding-bottom: 1.25rem;
+}
+.send form button {
+    color: white;
+    margin: 1.25rem 0rem;
+    padding: 0.3125rem 3.125rem;
+    font-size: 1.5625rem;
+    font-weight: 400;
+    transition: 0.7s ease;
+    border: none;
+    background: #347571;
+    border-radius: 3.125rem;
+}
+.send form button:hover {
+    transform: scale(1.1);
+    background-color: #b9d3aa;
+
+}
+.send form div {
+    margin: 0.625rem;
+}
