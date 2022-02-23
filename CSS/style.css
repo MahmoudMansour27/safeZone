@@ -20,6 +20,16 @@ header {
 header a {
     text-decoration: none;
 }
+header .logoicon span {
+    font-size: 1.8rem;
+    font-weight: 900;
+    color: #347571;
+}
+header .logoicon i {
+    color: #347571;
+    font-size: 1.8rem;
+    margin-left: 0.2rem;
+}
 .navtaps a{
     color: #347571;
     text-decoration: none;
@@ -76,16 +86,22 @@ section{
 .main .text h3 {
     font-size: 3rem;
     margin-right: 2rem;
+    color: #056A4C;
 }
 .main .text h1 {
     font-size: 6rem;
     margin-right: 2rem;
+    color: #056A4C;
 }
 .main .icons {
     font-size: 3rem;
+    margin-top: 1.5rem;
 }
 .main .icons a {
     margin: 1rem 1rem;
+}
+.main .icons i {
+    color: #5EC57E;
 }
 .main .form-box {
     padding: 3rem;
@@ -117,7 +133,7 @@ section{
     text-align: center;
 }
 .bott:hover{
-    background-color: darkcyan;
+    background-color: #b9d3aa;
     transform: scale(1.1);
 }
 .services {
@@ -168,7 +184,7 @@ section{
     font-weight: bold;
     color: #347571;
     text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 2.5rem;
 }
 .about .container{
     display: flex;
@@ -179,18 +195,25 @@ section{
     padding: 0rem 5rem;
 }
 .about .container .text-about h3 {
-    font-size: 3rem;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    color: #347571;
 }
 .about .container .text-about p {
-    font-size: 2.7rem;
+    font-size: 1.7rem;
+    margin-bottom: 1rem;
+}
+.about .container .text-about hr {
+    color: #347571;
+    margin-top: 6.5rem;
 }
 .about .container .img {
-    background-color: #347571;
     width: 50%;
+    overflow: hidden;
 }
 .about .container .img img {
     width: 57rem;
-    height: 50rem;
+    height: 43rem;
 }
 .about table tr img{
     width: 50%;
@@ -295,7 +318,7 @@ table .icons i:hover {
 .send h3 {
     padding-bottom: 3.125rem;
     font-size: 3.125rem;
-    color: black;
+    color: #347571;
 }
 .send form {
     font-size: 1.5625rem;
@@ -330,4 +353,22 @@ table .icons i:hover {
 }
 .send form div {
     margin: 0.625rem;
+}
+.videoSec {
+    padding: 0rem;
+    margin: 6rem 4rem;
+    display: flex;
+    justify-content: space-between;
+}
+.videoSec .videoText p {
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+}
+.hr {
+    padding: 0rem 8rem;
+}
+.sendhr {
+    width: 100%;
+    text-align: center;
+    color: #347571;
 }

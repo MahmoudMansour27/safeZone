@@ -27,6 +27,7 @@ body {
   .title {
     font-size: 50px;
     margin-bottom: 50px;
+    color: #347571;
 }
 .inputContainer {
     position: relative;
@@ -80,10 +81,11 @@ body {
     cursor: pointer;
     font-size: 16px;
     margin-top: 30px;
+    transition: 0.7s ease;
 }
   
   .submitBtn:hover {
-    background-color: #84dfd9;
+    background-color: #b9d3aa;
     transform: translateY(-2px);
 }
 .input:focus + .label {
@@ -92,10 +94,10 @@ body {
     z-index: 10;
     font-size: 14px;
     font-weight: 600;
-    color: purple;
+    color: #347571;
   }
   .input:focus {
-    border: 2px solid purple;
+    border: 2px solid #347571;
   }
   .input:not(:placeholder-shown)+ .label {
     top: -7px;

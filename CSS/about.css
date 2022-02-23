@@ -20,6 +20,16 @@ header {
 header a {
     text-decoration: none;
 }
+header .logoicon span {
+    font-size: 1.8rem;
+    font-weight: 900;
+    color: #347571;
+}
+header .logoicon i {
+    color: #347571;
+    font-size: 1.8rem;
+    margin-left: 0.2rem;
+}
 .navtaps a{
     color: #347571;
     text-decoration: none;
@@ -76,17 +86,24 @@ section{
 .main .text h3 {
     font-size: 3rem;
     margin-right: 2rem;
+    color: #056A4C;
 }
 .main .text h1 {
     font-size: 5rem;
     margin-right: 2rem;
+    color: #056A4C;
 }
 .main .icons {
     font-size: 3rem;
     margin-bottom: 13rem;
+    margin-top: 1.5rem;
+
 }
 .main .icons a {
     margin: 1rem 1rem;
+}
+.main .icons i {
+    color: #5EC57E;
 }
 .team {
     padding: 4rem;
@@ -209,4 +226,51 @@ body .us {
 }
 .footer .soical-icons .text {
     text-align: center;
+}
+.time {
+    padding: 0rem 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+.time .gif {
+    width: 37%;
+    height: 50rem;
+    background-image: url(../img/tallest-gba76d2b7b_1920.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.dates {
+    width: 55%;
+    margin: 0rem 4rem;
+}
+.time .dates .row {
+    display: flex;
+    justify-content: space-between;
+}
+.time .dates .row .date {
+    margin: 2rem 4rem;
+    width: 25rem;
+    height: 13rem;
+    padding: 0.8rem;
+    transition: 0.7s ease;
+}
+.time .dates .row .date:hover {
+    border: solid #056A4C 0.1rem;
+}
+.time .dates .row .date h5 {
+    color: #056A4C;
+    font-size: 1.5rem;
+}
+.hr {
+    padding: 0rem 0rem;
+    margin: 0rem;
+    margin-left: 48rem;
+}
+.sendhr {
+    width: 59rem;
+    text-align: center;
+    color: #347571;
 }
